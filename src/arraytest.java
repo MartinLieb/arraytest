@@ -4,7 +4,12 @@ public class arraytest {
 
         int tal[] = {4, 5, 7, 10, 25};
 
+        // sum skal defineres for at den kan virke i "for loopet"
+
         int sum = 0;
+
+        // Her starter counteren på 0 og slutter inden den når længden af indexet og incrementer hver gang
+        // Derefter printer den hele indexet og summen af talene
 
         for (int counter = 0; counter < tal.length ; counter++) {
             System.out.println(tal[counter]);
